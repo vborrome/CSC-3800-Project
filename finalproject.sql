@@ -1,10 +1,7 @@
 DROP DATABASE movieTheater;
 CREATE DATABASE movieTheater;
 USE movieTheater;
-vjbatuncp-patch-1
-jksdfkliowieii
-somethingonline4
-master
+
 CREATE TABLE Movie					(
 movieId 			Char(8) 		NOT NULL,
 movieName 			VARCHAR(100) 	NOT NULL,
