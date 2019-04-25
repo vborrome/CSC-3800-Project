@@ -1,7 +1,7 @@
 DROP DATABASE movieTheater;
 CREATE DATABASE movieTheater;
 USE movieTheater;
-
+somethingonline4
 CREATE TABLE Movie					(
 movieId 			Char(8) 		NOT NULL,
 movieName 			VARCHAR(100) 	NOT NULL,
