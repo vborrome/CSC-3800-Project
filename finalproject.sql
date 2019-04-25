@@ -36,4 +36,15 @@ INSERT INTO Actor VALUES('15220816', 'Jada Pinkett-Smith', 'F', '1971-09-18');
 INSERT INTO ActsIn VALUES('15220815', 'aaaaaaaa');
 INSERT INTO ActsIn VALUES('15220816', 'bbbbbbbb');
 
+INSERT INTO Ticket VALUES('gggggggg', 'cccccccc', 'eeeeeeee', '2019-04-27', '8.75', 'iiiiiiii', '2019-04-27');
+INSERT INTO Ticket VALUES('hhhhhhhh', 'dddddddd', 'ffffffff', '2019-05-04', '8.50', 'jjjjjjjj', '2019-05-04');
+INSERT INTO Staff VALUES('iiiiiiii', 'Jermaine Dupri', '909 So Def Street', 'Breadwinner', 'NJ', '28354', '148-855-9999', 'jdupri@aol.com', 'M', '999-99-9999', '1970-05-18');
+INSERT INTO Staff VALUES('jjjjjjjj', 'Mariah Carey', '704 Butterfly Drive', 'New York City', 'NY', '80051', '555-555-5555', 'thesongbirdsupreme@gmail.com', 'F', '888-88-8888', '1970-01-15');
+INSERT INTO Position VALUES('kkkkkkkk', 'Janitor');
+INSERT INTO Position VALUES('llllllll', 'Concessions');
+INSERT INTO StaffPosition VALUES('iiiiiiii', 'kkkkkkkk', 'cccccccc', '2018-10-01', '2019-01-01');
+INSERT INTO StaffPosition VALUES('jjjjjjjj', 'llllllll', 'dddddddd', '2019-02-14', '2019-04-25');
+INSERT INTO StaffSalary VALUES('iiiiiiii', 'kkkkkkkk', '7.25', '2018-10-08');
+INSERT INTO StaffSalary VALUES('jjjjjjjj', 'llllllll', '7.25', '2019-02-21'); 
+
 commit;
