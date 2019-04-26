@@ -137,6 +137,12 @@ CONSTRAINT MovieTheater_PositionId_fk		FOREIGN KEY(PositionId) REFERENCES Positi
 CONSTRAINT Salary CHECK (Salary > 0)
 );
 
+INSERT INTO Movie VALUES('aaaaaaaa', 'The Alphabet', 'Story of letters betting.', 'PG-13', '1999-10-02', 90);
+INSERT INTO Movie VALUES('bbbbbbbb', 'The BetaAlph', 'Story of betting letters.', 'PG-13', '2000-10-16', 75);
+INSERT INTO Actor VALUES('15220815', 'Will Smith', 'M', '1968-09-25');
+INSERT INTO Actor VALUES('15220816', 'Jada Pinkett-Smith', 'F', '1971-09-18');
+INSERT INTO ActsIn VALUES('15220815', 'aaaaaaaa');
+INSERT INTO ActsIn VALUES('15220816', 'bbbbbbbb');
 INSERT INTO Director VALUES('15220814', 'Jordan Peele', 'M', '1979-02-21');
 INSERT INTO Director VALUES('15220815', 'David Fincher', 'M', '1962-08-28');
 INSERT INTO Directs VALUES('15220814', 'aaaaaaaa');
@@ -157,11 +163,5 @@ INSERT INTO StaffPosition VALUES('iiiiiiii', 'kkkkkkkk', 'cccccccc', '2018-10-01
 INSERT INTO StaffPosition VALUES('jjjjjjjj', 'llllllll', 'dddddddd', '2019-02-14', '2019-04-25');
 INSERT INTO StaffSalary VALUES('iiiiiiii', 'kkkkkkkk', '7.25', '2018-10-08');
 INSERT INTO StaffSalary VALUES('jjjjjjjj', 'llllllll', '7.25', '2019-02-21');
-INSERT INTO Movie VALUES('aaaaaaaa', 'The Alphabet', 'Story of letters betting.', 'PG-13', '1999-10-02', 90);
-INSERT INTO Movie VALUES('bbbbbbbb', 'The BetaAlph', 'Story of betting letters.', 'PG-13', '2000-10-16', 75);
-INSERT INTO Actor VALUES('15220815', 'Will Smith', 'M', '1968-09-25');
-INSERT INTO Actor VALUES('15220816', 'Jada Pinkett-Smith', 'F', '1971-09-18');
-INSERT INTO ActsIn VALUES('15220815', 'aaaaaaaa');
-INSERT INTO ActsIn VALUES('15220816', 'bbbbbbbb');
 
 commit;
