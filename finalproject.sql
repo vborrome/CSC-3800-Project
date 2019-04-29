@@ -154,7 +154,7 @@ INSERT INTO Screens VALUES('ffffffff', 'dddddddd', 'ScreenName2', '270');
 INSERT INTO PlayingInScreen VALUES('eeeeeeee', 'ccccccc', 'aaaaaaaa', '2019-04-26');
 INSERT INTO PlayingInScreen VALUES('ffffffff', 'dddddddd', 'bbbbbbbb', '2019-05-03');
 INSERT INTO Ticket VALUES('gggggggg', 'cccccccc', 'eeeeeeee', '2019-04-26', '8.75', 'iiiiiiii', '2019-04-27');
-INSERT INTO Ticket VALUES('hhhhhhhh', 'dddddddd', 'ffffffff', '2019-05-03', '8.50', 'jjjjjjjj', 2019-05-04');
+INSERT INTO Ticket VALUES('hhhhhhhh', 'dddddddd', 'ffffffff', '2019-05-03', '8.50', 'jjjjjjjj', '2019-05-04');
 INSERT INTO Staff VALUES('iiiiiiii', 'Jermaine Dupri', '909 So Def Street', 'Breadwinner', 'NJ', '28354', '148-855-9999', 'jdupri@aol.com', 'M', '999-99-9999', '1970-05-18');
 INSERT INTO Staff VALUES('jjjjjjjj', 'Mariah Carey', '704 Butterfly Drive', 'New York City', 'NY', '80051', '555-555-5555', 'thesongbirdsupreme@gmail.com', 'F', '888-88-8888', '1970-01-15');
 INSERT INTO Position VALUES('kkkkkkkk', 'Janitor');
