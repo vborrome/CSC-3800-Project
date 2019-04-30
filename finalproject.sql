@@ -87,8 +87,7 @@ CREATE TABLE PlayingInScreen		(
 ScreenId				CHAR(8),
 TheaterId				CHAR(8),
 MovieId					CHAR(8),
-StartTime				DATE			NOT NULL,
-CONSTRAINT MovieTheater_PlayInScreenId_pk		PRIMARY KEY (ScreenId, TheaterId, StartTime),
+CONSTRAINT MovieTheater_PlayInScreenId_pk		PRIMARY KEY (ScreenId, TheaterId),
 CONSTRAINT MovieTheater_PlayInScreenId_fk		FOREIGN KEY (ScreenId) REFERENCES Screen(ScreenId),
 CONSTRAINT MovieTheater_PlayInTheaterId_fk		FOREIGN KEY (TheaterId) REFERENCES Screen(TheaterId),
 CONSTRAINT MovieTheater_PlayInMovieId_fk		FOREIGN KEY (MovieId) REFERENCES Movie(MovieId)
@@ -171,5 +170,8 @@ INSERT INTO StaffPosition VALUES('jjjjjjjj', 'llllllll', 'dddddddd', '2019-02-14
 
 INSERT INTO StaffSalary VALUES('iiiiiiii', 'kkkkkkkk', '7.25', '2018-10-08');
 INSERT INTO StaffSalary VALUES('jjjjjjjj', 'llllllll', '7.25', '2019-02-21');
+
+INSERT INTO Ticket VALUES('gggggggg', 'cccccccc', 'eeeeeeee', '8.75', 'iiiiiiii', '2019-04-27');
+INSERT INTO Ticket VALUES('hhhhhhhh', 'dddddddd', 'ffffffff', '8.50', 'jjjjjjjj', '2019-05-04');
 
 commit;
