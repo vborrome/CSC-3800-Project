@@ -401,7 +401,6 @@ public class FinalProjectBJV {
 					System.out.printf("%-25s%s\n", "ScreenId", "Char 8");
 					System.out.printf("%-25s%s\n", "TheaterId", "Char 8");
 					System.out.printf("%-25s%s\n", "MovieId", "Char 8");
-					System.out.printf("%-25s%s\n", "StartTime", "Date");
 
 					System.out.println("You can perform a SELECT on this table."
 							+ " What would you like to do? Enter S, or N for none.");
@@ -409,7 +408,7 @@ public class FinalProjectBJV {
 					String playingInScreenChoice = scanner.readLine();
 					switch (playingInScreenChoice) {
 
-					case "S":
+						case "S":
 						System.out.println("Please enter your SELECT query now.");
 						sql = scanner.readLine();
 						stmt = conn.prepareStatement(sql);
@@ -443,7 +442,6 @@ public class FinalProjectBJV {
 					System.out.printf("%-25s%s\n", "TicketId", "Char 8");
 					System.out.printf("%-25s%s\n", "TheaterId", "Char 8");
 					System.out.printf("%-25s%s\n", "ScreenId", "Char 8");
-					System.out.printf("%-25s%s\n", "StartTime", "Date");
 					System.out.printf("%-25s%s\n", "Price", "Int");
 					System.out.printf("%-25s%s\n", "StaffId", "Char 8");
 					System.out.printf("%-25s%s\n", "SellingTimestamp", "Date");
