@@ -690,7 +690,7 @@ public class FinalProjectBJV {
 			} while (repeat.equals("yes"));
 
 			scanner.close();
-			System.out.print("\nClosing connection...");
+			System.out.print("\nCommitting data then closing connection...");
 			conn.close();
 			Thread.sleep(1000);
 			System.out.print("connection closed. Until next time!");
